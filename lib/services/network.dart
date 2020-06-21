@@ -5,7 +5,7 @@ class Network {
   String url = SPORTSHULK_URL;
   Network(this.url);
 
-  Future getData() async {
+  Future getPosts() async {
     print('Calling uri: ' + url + "wp-json/wp/v2/posts/?per_page=100");
 
     Response response = await get(url);

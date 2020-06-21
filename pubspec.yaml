@@ -21,9 +21,18 @@ dependencies:
   # for http
   http: ^0.12.1
 
+  # for json_annotation
+  json_annotation: ^3.0.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # for build_runner
+  build_runner: ^1.10.0
+
+  # for json_serializable
+  json_serializable: ^3.3.0
     
 # The following section is specific to Flutter.
 flutter:
